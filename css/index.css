@@ -294,7 +294,7 @@ p {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-text .btn a {
+.home .walk .walk-text .btn {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -305,8 +305,9 @@ p {
   height: 3rem;
   border-radius: 0.5rem;
   font-size: 1.6rem;
+  cursor: pointer;
 }
-.home .walk .walk-text .btn a:hover {
+.home .walk .walk-text .btn:hover {
   background: white;
   color: #22283A;
 }

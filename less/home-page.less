@@ -77,20 +77,18 @@
       p {
         margin-bottom: 26px;
       }
-      .btn {
-       
-        a{
+        .btn {
           .display(row,center,center,@btn-bg-color);
           color: white;
           width: 9rem;
           height: 3rem;
           border-radius: .5rem;
           font-size: 1.6rem;
-        }
-        a:hover{
-          background: white;
-          color: @btn-bg-color;
-        }
+          cursor: pointer;
+          &:hover{
+              background: white;
+              color: @btn-bg-color;
+            }
         @media @phone{
           width: 100%;
           margin-bottom: 1rem;
@@ -114,4 +112,4 @@
       }
     }
   }
-}// home
+}
