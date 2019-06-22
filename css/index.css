@@ -360,3 +360,65 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.sign-upBody {
+  max-width: 800px;
+  margin: 0 auto;
+}
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=submit] {
+  background-color: #22283A;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+.earth2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  margin: 6rem;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.signUpForm {
+  border-radius: 5px;
+  padding: 20px;
+}
+.title {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.textField {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width:500px) {
+  .title,
+  .textField,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
