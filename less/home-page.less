@@ -2,11 +2,13 @@
 
 .home {
   .earth{
+    margin-top: 55px;
     .display(row,center,center,white);
     img{
         width: 100%;
         border-radius: .5rem;
         @media @phone{
+          margin-top: 20px;
             width: 100%;
         }
     }
@@ -88,20 +90,22 @@
       }
         .btn {
           .display(row,center,center,@btn-bg-color);
-          color: white;
           width: 9rem;
-          height: 7rem;
+          height: 4rem;
           border-radius: .5rem;
           font-size: 2rem;
+          font-weight: bolder;
           cursor: pointer;
+          text-decoration: none;
+            color: white;
           animation: 3s cubic-bezier(0.39, 0.575, 0.565, 1) 1s infinite alternate both running scale-up-center;
           &:hover{
-              background: white;
-              color: @btn-bg-color;
-            }
-        @media @phone{
-          width: 100%;
-          margin-bottom: 1rem;
+            background: white;
+            color:#22283A;
+          }
+          @media @phone{
+           width: 100%;
+           margin-bottom: 1rem;
         }
       }
     }
